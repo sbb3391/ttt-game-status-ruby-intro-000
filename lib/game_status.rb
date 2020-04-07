@@ -18,13 +18,13 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.select do |winner_set|
+  WIN_COMBINATIONS.each do |winner_set|
     if position_taken?(board, winner_set[0]) &&
        board[winner_set[0]] == board[winner_set[1]] &&
        board[winner_set[0]] == board[winner_set[2]]
-        winner_set
+      
      else
-       false
+      return false
     end
   end
 end
