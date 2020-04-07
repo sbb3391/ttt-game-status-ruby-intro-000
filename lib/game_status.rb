@@ -54,9 +54,6 @@ def over?(board)
   end
 end
 
-def won_test(board)
-  WIN_COMBINATIONS.each do |winner_set|
-    if board[winner_set[0]] == board[winner_set[1]]
-    end
-  end
+def winner?(board
+  
 end
