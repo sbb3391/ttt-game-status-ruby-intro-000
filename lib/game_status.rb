@@ -24,7 +24,7 @@ def won?(board)
        board[winner_set[0]] == board[winner_set[2]]
        return winner_set
      else
-       false
+      return false
     end
   end
 end
