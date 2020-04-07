@@ -22,9 +22,9 @@ def won?(board)
     if position_taken?(board, winner_set[0]) &&
        board[winner_set[0]] == board[winner_set[1]] &&
        board[winner_set[0]] == board[winner_set[2]]
-       return winner_set
+        winner_set
      else
-      return false
+       false
     end
   end
 end
