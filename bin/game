@@ -4,6 +4,6 @@ require_relative '../lib/game_status.rb'
 
 
 
-board = ["X", " ", "X", "O", "X", "X", "O", "X", "O"]
+board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
 
 puts won?(board)
