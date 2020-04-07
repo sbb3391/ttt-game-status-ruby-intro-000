@@ -6,4 +6,5 @@ require_relative '../lib/game_status.rb'
 
 board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
 
-puts winner(board)
+board[1,2]
+
