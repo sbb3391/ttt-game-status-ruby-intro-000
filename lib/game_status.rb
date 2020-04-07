@@ -55,5 +55,6 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
+  won?(board) == "X"
+
 end
